@@ -1,0 +1,29 @@
+{
+  "id": "mechanisms-and-riddles",
+  "title": "Механизмы и загадки",
+  "description": "Системно-независимые интерактивные загадки для Foundry VTT.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Module Author"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.1.0"
+        }
+      }
+    ]
+  }
+}
